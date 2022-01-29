@@ -1,0 +1,29 @@
+{
+  "name": "adiixyz-md",
+  "version": "1.0.0",
+  "description": "Multi Device WhatsApp Bot",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adiixyz/Adii-MD02.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adiixyz/Adii-MD02/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys-md": "github:adiwajshing/baileys#multi-device",
+    "acrcloud": "^1.4.0",
+    "axios": "^0.24.0",
+    "file-type": "^16.5.2",
+    "form-data": "^4.0.0"
+  },
+  "author": "Adiixyz",
+  "homepage": "https://github.com/Adiixyz/Adii-MD02"
+}

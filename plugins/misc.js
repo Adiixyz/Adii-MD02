@@ -67,7 +67,8 @@
 			await reply('_Testing speed..._')
 			let neww = +new Date
 			let speed = functions.parseMs(neww - old)
-			reply(`Merespon dalam ${speed.seconds}.${speed.milliseconds} detik`)
+                        let spoon = `${speed.seconds}.${speed.milliseconds}`
+			reply(`Merespon dalam ${spoon} detik`)
 			break
 		}
 		case /^(list(grup|group|gc)|grouplist)$/i.test(command): {

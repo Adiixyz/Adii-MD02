@@ -1,11 +1,11 @@
 const fs = require('fs')
 
 global.prefix = '.'
-global.mode = 'publik'
+global.mode = 'publik' //kalo mau self ubah dari publik ke self
 global.packName = 'Adii-MD'
 global.authorName = 'Beta'
 // global.thumb = fs.readFileSync('./thumb.jpeg')
-global.ownerNumber = ['0', '+60 19-978 2326']
+global.ownerNumber = ['+60 19-978 2326']
 global.thumbnailUrl = ['https://telegra.ph/file/69d52042b39386c222151.jpg', 'https://telegra.ph/file/7079e0b324406d3d7543c.jpg', 'https://telegra.ph/file/3a3edf8916e3239522a34.jpg']
 // global.db = JSON.parse(fs.readFileSync('./db.json'))
 

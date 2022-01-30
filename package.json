@@ -4,7 +4,8 @@
   "description": "Multi Device WhatsApp Bot",
   "main": "index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "plugins": "plugins"
   },
   "scripts": {
     "start": "node index.js"

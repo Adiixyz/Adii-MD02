@@ -1,5 +1,5 @@
 ![dy](https://telegra.ph/file/3a3edf8916e3239522a34.jpg)
-<h1 align="center">Adii-MD</h1>
+<h2 align="center">Adii-MD</h2>
 <h3 align="center">Testing Multi-Device (Project 2)</h3>
 
 --------------
@@ -17,7 +17,7 @@
 
 ## FOR `termux` USER
 
-```bash
+```cmd
 git clone https://github.com/Adiixyz/Adii-MD02
 cd Adii-MD02
 npm install
@@ -30,7 +30,7 @@ npm update
 * Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**)
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
-```bash
+```cmd
 git clone https://github.com/Adiixyz/Adii-MD02
 cd Adii-MD02
 npm install
@@ -57,7 +57,7 @@ If successful, it will give you a message like:
 
 ## Run
 
-```bash
+```cmd
 node .
 ```
 

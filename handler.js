@@ -16,7 +16,7 @@ const acr = new acrcloud({
 const pkg = require('./package.json')
 const simple = require('./lib/simple.js')
 const functions = require('./lib/function.js')
-const { menu, mess, tos } = require('./lib/txt.js')
+const { menu, allmenu, mess, tos } = require('./lib/txt.js')
 const { color, clockString, isUrl, getBuffer, pickRandom, parseResult, uploadFile } = functions
 
 const time = new Date().toLocaleString('es-AR')

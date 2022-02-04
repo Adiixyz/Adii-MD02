@@ -6,8 +6,19 @@
 				// let buttons = [{ buttonId: prefix + 'tos', buttonText: { displayText: 'TOS', type: 1 }}, { buttonId: prefix + 'owner', buttonText: { displayText: 'Owner', type: 1 }}, { buttonId: prefix + 'sc', buttonText: { displayText: 'Source Code', type: 1 }}]
 				// await conn.sendMessage(from, { location: { jpegThumbnail: data }, caption: menu(prefix, clockString), footer: `Hai @${sender.split('@')[0]} ${decodeURI('%F0%9F%91%8B')}`, mentions: [sender], buttons })
 			// } else {
-				let templateButtons = [{ urlButton: { displayText: 'Source Code', url : pkg.homepage }}, { quickReplyButton: { displayText: 'Ping', id: prefix + 'ping' }}, { quickReplyButton: { displayText: 'Owner', id: prefix + 'owner' }}, { quickReplyButton: { displayText: 'TOS', id: prefix + 'tos' }}]
+				let templateButtons = [{ urlButton: { displayText: 'Source Code', url : pkg.homepage }}, { quickReplyButton: { displayText: 'All-Menu', id: prefix + 'allmenu' }}, { quickReplyButton: { displayText: 'Owner', id: prefix + 'owner' }}, { quickReplyButton: { displayText: 'TOS', id: prefix + 'tos' }}]
 				await conn.sendMessage(from, { location: { jpegThumbnail: data }, caption: menu(prefix, clockString), footer: `Hai ${pushname} ${decodeURI('%F0%9F%91%8B')}`, templateButtons })
+			// }
+			break
+		}
+                case /^all(menu|command)$/i.test(command): {
+			let { data } = await conn.getFile(pickRandom(thumbnailUrl))
+			// if (isGroup) {
+				// let buttons = [{ buttonId: prefix + 'tos', buttonText: { displayText: 'TOS', type: 1 }}, { buttonId: prefix + 'owner', buttonText: { displayText: 'Owner', type: 1 }}, { buttonId: prefix + 'sc', buttonText: { displayText: 'Source Code', type: 1 }}]
+				// await conn.sendMessage(from, { location: { jpegThumbnail: data }, caption: menu(prefix, clockString), footer: `Hai @${sender.split('@')[0]} ${decodeURI('%F0%9F%91%8B')}`, mentions: [sender], buttons })
+			// } else {
+				let buttonMenu = [{ urlButton: { displayText: 'Source Code', url : pkg.homepage }}, { quickReplyButton: { displayText: 'Ping', id: prefix + 'ping' }}, { quickReplyButton: { displayText: 'Owner', id: prefix + 'owner' }}, { quickReplyButton: { displayText: 'TOS', id: prefix + 'tos' }}]
+				await conn.sendMessage(from, { location: { jpegThumbnail: data }, caption: allmenu(prefix), footer: `Hai ${pushname} ${decodeURI('%F0%9F%91%8B')}`, buttonMenu })
 			// }
 			break
 		}
@@ -64,7 +75,6 @@
 		}
 		case /^(ping|speed)$/i.test(command): {
 			let old = +new Date
-			await reply('_Testing speed..._')
 			let neww = +new Date
 			let speed = functions.parseMs(neww - old)
                         let spoon = `${speed.seconds}.${speed.milliseconds}`

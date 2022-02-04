@@ -9,7 +9,7 @@ for (let folder of folders)
     files.push(path.resolve(path.join(folder, file)))
 for (let file of files) {
   if (file == path.join(__dirname, __filename)) continue
-  console.error('Checking', file)
+  console.error('Checking files', file)
   spawn(process.argv0, ['-c', file])
   .on('close', () => {
     assert.ok(file)

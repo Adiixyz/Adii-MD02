@@ -81,11 +81,6 @@
 			reply(`Merespon dalam ${spoon} detik`)
 			break
 		}
-                case /^(jadibot|bot)$/i.test(command): {
-			if (isOwner) return reply('lu owner gw njir')
-                        jadibot(conn, m)
-			break
-		}
 		case /^(list(grup|group|gc)|grouplist)$/i.test(command): {
 			let grup = Object.values(await conn.groupFetchAllParticipating()).map(v => `${v.subject}\n${v.id}`).join`\n\n`
 			reply('List Groups:\n\n' + grup)

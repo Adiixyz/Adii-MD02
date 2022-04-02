@@ -13,7 +13,7 @@ global.APIs = {
 	zeks: 'https://api.zeks.me/api',
 	popcat: 'https://api.popcat.xyz',
 	hardianto: 'https://hardianto.xyz/api',
-	zacros: 'https://api.zacros-team.com',
+	zacros: 'https://api.zacros.my.id',
 	nrtm: 'https://nurutomo.herokuapp.com',
 	hadi: 'http://hadi-api.herokuapp.com/api',
 	megayaa: 'https://megayaa.herokuapp.com/api'

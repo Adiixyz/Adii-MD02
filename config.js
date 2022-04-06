@@ -16,11 +16,13 @@ global.APIs = {
 	zacros: 'https://api.zacros.my.id',
 	nrtm: 'https://nurutomo.herokuapp.com',
 	hadi: 'http://hadi-api.herokuapp.com/api',
-	megayaa: 'https://megayaa.herokuapp.com/api'
+	megayaa: 'https://megayaa.herokuapp.com/api',
+	mely: 'https://melcanz.com'
 }
 global.APIKeys = {
 	'https://api.zeks.me/api': 'Nyarlathotep',
 	'https://hardianto.xyz/api': 'hardianto'
+	'https://melcanz.com: 'GVQjlc7H'
 }
 
 let file = require.resolve(__filename)

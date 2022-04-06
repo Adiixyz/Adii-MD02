@@ -1,13 +1,13 @@
 ![dy](https://telegra.ph/file/3a3edf8916e3239522a34.jpg)
 <h2 align="center">Adii-MD</h2>
-<h3 align="center">Testing Multi-Device (Project 2)</h3>
+<h3 align="center">Multi-Device Bot</h3>
 
 --------------
 <h2 align="center">Installation</h2>
 
 
 #### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Adiixyz/Adii-MD2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Adiixyz/Adii-MD02)
 
 #### Heroku Buildpack
 | BuildPack | LINK |

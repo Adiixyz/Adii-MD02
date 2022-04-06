@@ -64,6 +64,6 @@ node .
 ---------
 
 # Contributors
-- [Adiixyz](github.com/Adiixyz)
-- [aditya12311](github.com/aditya12311)
+- [Adiixyz](https://github.com/Adiixyz)
+- [aditya12311](https://github.com/aditya12311)
 - WhiteSource Renovate

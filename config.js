@@ -17,7 +17,8 @@ global.APIs = {
 	nrtm: 'https://nurutomo.herokuapp.com',
 	hadi: 'http://hadi-api.herokuapp.com/api',
 	megayaa: 'https://megayaa.herokuapp.com/api',
-	mely: 'https://melcanz.com'
+	mely: 'https://melcanz.com',
+	zacr: 'https://api.zacros.my.id'
 }
 global.APIKeys = {
 	'https://api.zeks.me/api': 'Nyarlathotep',

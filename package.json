@@ -21,7 +21,7 @@
   "dependencies": {
     "@adiwajshing/baileys-md": "github:adiwajshing/baileys#multi-device",
     "acrcloud": "^1.4.0",
-    "axios": "^0.25.0",
+    "axios": "^0.27.0",
     "file-type": "^17.0.0",
     "form-data": "^4.0.0"
   },
